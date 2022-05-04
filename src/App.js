@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import HeaderComponent from './Components/HeaderComponent';
 import ListHomeWorkComponent from './Components/ListHomeWorkComponent';
+import HooksComponent from './Components/HooksComponent';
+
 
 function App() {
   return (
@@ -12,9 +14,9 @@ function App() {
        
        
         <HeaderComponent/>
-       <ListHomeWorkComponent/>
+  
        <div className='separador'>
-
+      <HooksComponent/>   
        </div>
 
       </header>
